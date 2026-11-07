@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200">
+  <rect x="1" y="1" width="398" height="198" rx="10" fill="none" stroke="#C4B5FD" stroke-width="2"/>
+  <line x1="200" y1="8" x2="200" y2="192" stroke="#6EE7B7" stroke-width="2" stroke-dasharray="6 6"/>
+  <rect x="10" y="0" width="8" height="30" rx="4" fill="#34D399">
+    <animate attributeName="y" values="0;170;0" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="382" y="0" width="8" height="30" rx="4" fill="#34D399">
+    <animate attributeName="y" values="0;170;0" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <circle r="8" fill="#C4A7E7">
+    <animate attributeName="cx" values="26;374;26" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="12;188;12" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
